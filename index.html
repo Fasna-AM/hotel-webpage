@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static webpage Task3</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Maname&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="cotainer">
+
+        <!-- home -->
+        <div class="container-fluid">
+            <div id="home">
+                <!-- navbar -->
+                <nav class="navbar  navbar-expand-lg bg-transparent
+                ">
+                    <div class="container nav-div">
+                        <h1 class="nav-head">Rolex Resort </h1>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class=" navbar-nav ms-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item ms-5">
+                                    <a id="home-link" class="nav-link  link-light" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <a id="room-link" class="nav-link link-light" href="#rooms">Rooms</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <a id="about-link" class="nav-link link-light" href="#service">About</a>
+                                </li>
+                                <li class="nav-item  ms-5">
+                                    <a id="blog-link" class="nav-link  link-light" href="#" role="button"
+                                        aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class=" ms-5 blog-menu">
+                                        <li><a class=" " href="#">Action</a></li>
+                                        <li><a class=" " href="#">Another action</a></li>
+                                        <li><a class=" " href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item link-home ms-5">
+                                    <a id="contact-link" class="nav-link link-light" href="#contact">Contact Us</a>
+                                </li>
+                                <li class="nav-item ms-5">
+                                    <a id="book-btn" class="nav-link btn link-light" href="#">Book now</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <hr class="board">
+                <div class="head-content  ">
+
+                    <h1 class="head1 text-center text-white ">Rest Journey in Single step, in the breathtaking</h1>
+                </div>
+                <div class="Search d-flex justify-content-evenly">
+                    <div class="check-in">
+
+                        <label for="" class="text-white ">Check In Date*</label>
+                        <br><br>
+                        <input type="date" class="text-white bg-transparent icon-white">
+                    </div>
+                    <div class="check-out">
+
+                        <label for="" class="text-white">Check In Date*</label>
+                        <br><br>
+                        <input type="date" class="text-white bg-transparent">
+                    </div>
+                    <div class="members-adult">
+                        <a id="blog-link" class="nav-link dropdown-toggle link-light mt-4" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Adult
+                        </a>
+                        <ul class="dropdown-menu ms-5">
+                            <li><a class="dropdown-item " href="#">Adult</a></li>
+                            <li><a class="dropdown-item " href="#"> Adult</a></li>
+                            <li><a class="dropdown-item " href="#">Adult</a></li>
+                        </ul>
+                    </div>
+                    <div class="members-child">
+                        <a id="blog-link" class="nav-link dropdown-toggle link-light mt-4" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Children
+                        </a>
+                        <ul class="dropdown-menu ms-5">
+                            <li><a class="dropdown-item " href="#">Children</a></li>
+                            <li><a class="dropdown-item " href="#">Children </a></li>
+                            <li><a class="dropdown-item " href="#">Children</a></li>
+                        </ul>
+
+                    </div>
+                    <button id="search" class="btn bg-light">Search</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- service -->
+        <div id="service" class="service row cotainer-fluid mt-5 ms-5 ">
+            <div class="col-md-4">
+                <img src="./images/service1.jpeg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-md-4 mt-5 ">
+                <h1>
+                    Luxury & Comfort Our services and wonders of Prague
+                </h1>
+                <p>
+                    The concept and service of the best luxury hotels in Asturias in our sophisticated Urban Double and
+                    Unique Junior Suite rooms, with the possibility of enjoying a furnished terrace in our Double Urban
+                    Loft and Unique Junior Loft Suite.
+                </p>
+                <button class="w-50   learn-more">Learn More</button>
+            </div>
+            <div class="col-md-3">
+                <img src="./images/service2.jpeg" alt="" class="img-fluid w-100 h-100">
+
+            </div>
+
+        </div>
+        <!-- rooms -->
+        <div id="rooms" class="rooms  container-fluid  mt-5 ms-5 ">
+            <div class="rooms-title">
+                <h1 class="rooms-head text-center mt-5">OUR ROOMS</h1>
+                <p class="room-content text-center">The concept and service of the best luxury hotels in Asturias in our
+                    sophisticated.</p>
+            </div>
+            <div class="d-flex mt-5 mb-5 justify-content-evenly flex-wrap">
+                <div class="img-div ">
+                    <div class="card  mb-3 img-div1 position-absolute bg-transparent" style="width: 25rem;">
+                        <div class="card-body  card2 text-center">
+                            <div class="card-content  ">
+                                <h1 class="card-title text-white mt-5">Luxurious Room</h1>
+                                <p class="card-title text-white ">2 Adult 1 Children</p>
+
+                                <p class="card-text text-white">Started From<span class=" text-primary text-white">$
+                                        500</span></p>
+                                <br></br>
+                                <a href="#" class="btn btn-danger">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 25rem;">
+
+                        <div class="card-body card3">
+                            <img class=" card-img " src="./images/laxurious.jpeg" alt="laxurious">
+                        </div>
+                    </div>
+                </div>
+                <div class="img-div ">
+                    <div class="card  mb-3 img-div1 position-absolute bg-transparent" style="width: 25rem;">
+                        <div class="card-body  card2 text-center">
+                            <div class="card-content  ">
+                                <h1 class="card-title text-white mt-5">Family Room</h1>
+                                <p class="card-title text-white ">2 Adult 2 Children</p>
+
+                                <p class="card-text text-white">Started From<span class=" text-primary text-white">$
+                                        500</span></p>
+                                <br></br>
+                                <a href="#" class="btn btn-danger">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 25rem;">
+
+                        <div class="card-body card3">
+                            <img class=" card-img " src="./images/family.jpeg" alt="family">
+                        </div>
+                    </div>
+                </div>
+                <div class="img-div ">
+                    <div class="card  mb-3 img-div1 position-absolute bg-transparent" style="width: 25rem;">
+                        <div class="card-body  card2 text-center">
+                            <div class="card-content  ">
+                                <h1 class="card-title text-white mt-5">Couple Room</h1>
+                                <p class="card-title text-white text-bold">2 Adult</p>
+
+                                <p class="card-text text-white">Started From<span class=" text-primary text-white">$
+                                        500</span></p>
+                                <br></br>
+                                <a href="#" class="btn btn-danger">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card text-center mb-3" style="width: 25rem;">
+
+                        <div class="card-body card3">
+                            <img class=" card-img " src="./images/couple.jpeg" alt="couple">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5 text-center">
+            <h1 class="mb-5 h1-head ">
+                Surrounded by galleries, boutiques, restaurants and cafés, our Hotel is a hub of energy and style.
+            </h1>
+            <a href="" class="find-room mt-5">Find a Room For You</a>
+        </div>
+
+        <div class="container-fluid mt-5 text-center">
+            <div class="d-flex mt-5 w-75 ms-5">
+                <img id="sesonal-img" src="./images/seosanal.png" alt="seosanal" class="img-fluid w-50 ">
+                <div class="sesonal-content bg-dark ">
+                    <a href="" class="seasonal-head   text-center">Take advantage of our sesonal special.</a>
+                    <p class="sesonal-content text-white text-center">The concept and service of the best luxury hotels
+                        in Asturias in our sophisticated Urban Double and Unique Junior Suite rooms, with the
+                        possibility of enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft
+                        Suite.</p>
+                    <button class="w-50   view-project"> View Project</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="cotainer-fluid vedio-div mt-5">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/H1CIBqDeWQ0"
+                title="Luxury Resort Video Reel 2023" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- food -->
+        <div class="container-fluid packages mt-5">
+            <h1 class="package-head text-center">
+                We Offer to Our Guest
+            </h1>
+            <div class="d-flex mt-5 mb-5 justify-content-evenly flex-wrap">
+                <!-- card 1 -->
+                <div class="card pack-card mb-5" style="width: 18rem; height: 550px;">
+                    <img src="./images/drinks.jpeg" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body card1">
+                        <h1 class="card-title text-center">Free Drinks</h1>
+                        <p class="card-text  text-justify">The concept and service of the best luxury hotels in Asturias
+                            in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of
+                            enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card pack-card mb-5" style="width: 18rem; height: 550px;">
+                    <img src="./images/breakfast.jpeg" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body card1">
+                        <h1 class="card-title text-center">Free Break Fast</h1>
+                        <p class="card-text  text-justify">The concept and service of the best luxury hotels in Asturias
+                            in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of
+                            enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card pack-card mb-5" style="width: 18rem; height: 550px;">
+                    <img src="./images/dinner.jpeg" class="card-img-top" alt="..." height="250px">
+                    <div class="card-body card1">
+                        <h1 class="card-title text-center">Free Dinner</h1>
+                        <p class="card-text  text-justify">The concept and service of the best luxury hotels in Asturias
+                            in our sophisticated Urban Double and Unique Junior Suite rooms, with the possibility of
+                            enjoying a furnished terrace in our Double Urban Loft and Unique Junior Loft Suite.
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- reviews -->
+        <!-- carousal -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5 " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./images/carousal1.png" class="d-block w-100 img-carousal" alt="...">
+
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/carousal2.png" class="d-block w-100 img-carousal" alt="...">
+
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/carousal1.png" class="d-block w-100 img-carousal" alt="...">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- footer -->
+        <footer id="contact">
+
+            <div class="contacts">
+                <div class="contact-item our-location">
+                    <h2 class="product-head">Rolex Resort</h2>
+                    <p class="contact-detail">Leather detail contrastic colour contour stunning silhouette working peplum. Statement buttons patch.</p>
+                    <br><br><br>
+                    <p class="contact-head">Contact Number :<span class="contact-no">80659465</span></p>
+                    <p class="contact-head">Email-id :<span class="contact-no">rolex@gmail.com</span></p>
+                    <div class="icon-collection">
+                        <!-- linkedin -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.google.co.in/"><i
+                                    class="fa-brands fa-linkedin-in brands"></i></a>
+                        </div>
+
+                        <!-- twiter -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.google.co.in/"><i
+                                    class="fa-brands fa-twitter brands"></i></a>
+                        </div>
+                        <!-- facebook -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.google.co.in/"><i
+                                    class="fa-brands fa-facebook-f brands"></i></a>
+                        </div>
+                        <!-- intagram -->
+                        <div class="icon">
+                            <a target="_blank" href="https://www.google.co.in/"><i
+                                    class="fa-brands fa-instagram brands"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="our-menu contact-item">
+                    <h2 class="product-head">Navigation</h2>
+                    <ul class="list">
+                        <li class="list-item"><a href="#home" class="link-ietms list-link">HOME</a>
+                        </li>
+                        <li class="list-item"><a href="#rooms" class="link-ietms list-link">OUR rooms</a>
+                        </li>
+                        <li class="list-item"><a href="#service" class="link-ietms list-link">About</a>
+                        </li>
+                        <li class="list-item"><a href="#rooms" class="link-ietms list-link">Book A Room</a>
+                        </li>
+                        <li class="list-item"><a href="#contact" class="link-ietms list-link">CONTACT US</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="latest-post contact-item">
+                    <h2 class="product-head">Newsletter</h2>
+                    <p class="text-white">Subscribe our newsletter to get updates</p>
+                    <input class="email bg-transparent" type="email" placeholder="Enter Your Email">
+                    <br><br>
+                    <button class="w-50   learn-search">Search</button>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+
+    
+</body>
+<!-- botstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+
+
+</html>

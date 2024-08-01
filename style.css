@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    backdrop-filter: blur(50px);
+    z-index: 1;
+}
+
+#home {
+    /* border: solid; */
+    width: 100%;
+    height: 150vh;
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    /* border: solid; */
+}
+
+.nav-head {
+    color: white;
+    font-size: 40px;
+}
+.blog-menu{
+    display: none;
+    background-color: rgb(224, 141, 141);
+
+
+}
+#blog-link:hover{
+    .blog-menu{
+        display: block;
+    
+    }  
+}
+#book-btn{
+    background-color: rgb(224, 141, 141);
+    width: 150px;
+}
+#home-link, #room-link, #about-link, #blog-link, #contact-link, #book-btn{
+    font-size: 20px;
+}
+hr.board{
+    border-top: 2px solid white ;
+}
+.head1{
+    width: 50%;
+    line-height: 2;
+    font-size: 60px;
+    margin: 20% 30%;
+}
+.members-adult, .members-child{
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+}
+
+#search{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.service{
+    height: 550px;
+    /* border: sol  id; */
+}
+.learn-more{
+    background-color: white;
+    color: rgb(224, 141, 141);
+    border: solid 1px  rgb(224, 141, 141);
+    padding: 20px;
+}
+.learn-more:hover{
+    background-color: rgb(242, 154, 154);
+    color: white;
+}
+.view-project:hover{
+    background-color: rgb(242, 154, 154);
+    color: white;
+}
+
+/* rooms */
+.rooms-head{
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+
+}
+
+.card2,.card3,.card4 {
+    height: 350px;
+}
+
+.card-img {
+    height: 320px;
+}
+
+.card-content {
+    height: 300px;
+
+
+}
+
+.img-div:hover{
+    .img-div1{
+        z-index: 1;
+  
+    }
+}
+.card-content>p{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.h1-head{
+    font-size: 50px;
+    width: 75%;
+    margin-left: 10%;
+}
+.find-room{
+    color: black;
+    /* text-decoration:solid; */
+}
+.find-room:hover{
+    transform: scale(2.1);
+
+}
+#sesonal-img{
+    margin-left: 10%;
+}
+.sesonal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 550px;
+}
+.seasonal-head{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+}
+.seasonal-head:hover{
+    color:rgb(224, 141, 141); 
+}
+.view-project{
+    background-color: black;
+    color: rgb(224, 141, 141);
+    font-size: 20px;
+    border: solid 1px  rgb(224, 141, 141);
+    padding: 20px;
+}
+.vedio-div{
+    margin: 8%;
+}
+
+/* food */
+
+.packages {
+    margin-top: -150px;
+    /* border: solid; */
+}
+
+.pack-card:hover {
+    transform: scale(1.1);
+
+}
+
+/* footer */
+
+#contact {
+    background-color: black;
+    margin-top: -80px;
+}
+.product-head{
+    color: rgb(224, 141, 141);
+
+}
+.contact-item{
+    margin: 8% 0px;
+    /* border: solid; */
+    width: 400px;
+    height: 400px;
+}
+
+
+.our-menu>h2 {
+    text-align: left;
+}
+
+.list-item {
+    text-align: left;
+    list-style: none;
+}
+
+.contact-detail,
+.contact-no,
+.post-details {
+    color: white;
+}
+
+.contact-head {
+    color: white;
+}
+
+.contacts {
+    /* border: solid; */
+    margin: 8%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-img {
+    width: 100px;
+    margin: 10px;
+}
+
+/* icons */
+
+.icon-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    /* border: solid; */
+}
+
+.icon {
+    /* to get round border */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 10px; */
+}
+
+.icon:hover {
+    background-image: linear-gradient(to bottom right, white, black);
+}
+
+.brands {
+    color: white;
+    font-size: 30px;
+}
+
+.icon:hover .brands {
+    color: black;
+    animation: rotate 3s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+.link-ietms{
+    text-decoration: none;
+    color: white;
+    line-height: 3;
+}
+.email{
+    width: 300px;
+    height: 50px;
+}
+.learn-search{
+    background-color: rgb(224, 141, 141);
+    color:white;
+    border: solid 1px  rgb(224, 141, 141);
+    padding: 20px;
+}
